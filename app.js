@@ -1,6 +1,9 @@
 /* Imports */
 
 /* Get DOM Elements */
+const cityInput = document.getElementById('cityname');
+const climateSelect = document.getElementById('climate');
+const buildSelect = document.getElementById('build');
 
 /* State */
 
