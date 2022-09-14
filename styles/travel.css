@@ -1,0 +1,9 @@
+#citybuild {
+    max-width: 300px;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
