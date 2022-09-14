@@ -47,6 +47,13 @@ img -climate
 h3:popular attractions
 ul
 
+## data model
+
+cityname:---
+climate:---
+buildings:---
+Attractions: [array of attractions]
+
 ## Event Listeners
 
 name input as input
