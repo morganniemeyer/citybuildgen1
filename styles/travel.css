@@ -60,3 +60,6 @@ img {
     width: 20rem;
     object-fit: cover;
 }
+.hide {
+    display: none;
+}
