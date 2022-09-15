@@ -4,9 +4,14 @@
 const cityInput = document.getElementById('cityname');
 const climateSelect = document.getElementById('climate');
 const buildSelect = document.getElementById('build');
+const upButton = document.getElementById('update-attractions');
+const todo = document.getElementById('features');
+
 const dispCity = document.getElementById('inputcity');
 const dispClimate = document.getElementById('selclimate');
 const dispBuild = document.getElementById('selbuild');
+const attract = document.getElementById('attractions-output');
+
 const adStyle = document.getElementById('ad-page');
 
 /* State */
@@ -31,6 +36,8 @@ climateSelect.addEventListener('change', () => {
     ad.climate = climateSelect.value;
     displayAd();
 });
+
+upButton.addEventListener('click', () => {});
 
 /* Display Functions */
 
