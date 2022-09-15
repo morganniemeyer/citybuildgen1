@@ -64,3 +64,19 @@ img {
 .hide {
     display: none;
 }
+
+.skyscraper {
+    font-family: 'Notable', sans-serif;
+}
+
+.pretty {
+    font-family: 'Handlee', cursive;
+}
+
+.sheep {
+    font-family: 'Caveat', cursive;
+}
+
+.trains {
+    font-family: 'Cutive Mono', monospace;
+}

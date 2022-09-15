@@ -52,7 +52,7 @@ function dispControl() {
 }
 function displayAd() {
     adStyle.classList.value = 'ad-page';
-    adStyle.classList.add(ad.climate);
+    adStyle.classList.add(ad.climate, ad.buildish);
     dispCity.textContent = ad.city;
     dispBuild.src = 'assets/buildish/' + ad.buildish + '.jpg';
     dispClimate.src = 'assets/climate/' + ad.climate + '.jpg';
