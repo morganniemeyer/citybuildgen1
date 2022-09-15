@@ -17,7 +17,7 @@ const adStyle = document.getElementById('ad-page');
 /* State */
 const ad = {
     city: '',
-    buildish: '',
+    buildish: 'null',
     climate: 'null',
     attractions: [],
 };

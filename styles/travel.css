@@ -24,11 +24,12 @@ label {
 }
 
 .ad-page {
-    background: grey;
+    background: #466a42;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
-    border: 4px solid rgb(37, 37, 37);
+    border: 4px solid #edcd25;
+    color: #99bf2b;
 }
 
 .chilly {
