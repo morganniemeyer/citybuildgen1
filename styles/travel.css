@@ -1,0 +1,82 @@
+.citybuild {
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+    gap: 5px;
+    display: block;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 15px;
+}
+
+label,
+textarea,
+select,
+input {
+    display: block;
+}
+label {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.ad-page {
+    background: #466a42;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    border: 4px solid #edcd25;
+    color: #99bf2b;
+}
+
+.chilly {
+    color: #2b3d69;
+    border: 4px solid #64647a;
+    background: #aebbd5;
+}
+
+.coastal {
+    color: #595344;
+    border: 4px solid #302519;
+    background: #c9d4dc;
+}
+
+.moon {
+    color: #618b99;
+    border: 4px solid #050c10;
+    background: #d8ebf2;
+}
+
+.boom {
+    color: #eb822b;
+    border: 4px solid #1c1014;
+    background: #561105;
+}
+
+img {
+    height: 30rem;
+    width: 20rem;
+    object-fit: cover;
+}
+.hide {
+    display: none;
+}
+
+.skyscraper {
+    font-family: 'Notable', sans-serif;
+}
+
+.pretty {
+    font-family: 'Handlee', cursive;
+}
+
+.sheep {
+    font-family: 'Caveat', cursive;
+}
+
+.trains {
+    font-family: 'Cutive Mono', monospace;
+}

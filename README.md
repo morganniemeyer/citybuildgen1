@@ -25,3 +25,38 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+[planning doc](https://whimsical.com/JJtxVAgLKbsVdTuKTVLd4s)
+
+## HTML req
+
+section: builder
+
+text input city name
+select: buildings
+select:climates
+text input:features
+linked button
+
+section:display
+
+h2: Visit the City of:
+h1, font set by buildings: insert city name here
+img -building
+img -climate
+h3:popular attractions
+ul
+
+## data model
+
+cityname:---
+climate:---
+buildings:---
+Attractions: [array of attractions]
+
+## Event Listeners
+
+name input as input
+buildings on change
+climates on change
+button on click
