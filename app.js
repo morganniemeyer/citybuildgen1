@@ -7,6 +7,7 @@ const buildSelect = document.getElementById('build');
 const dispCity = document.getElementById('inputcity');
 const dispClimate = document.getElementById('selclimate');
 const dispBuild = document.getElementById('selbuild');
+const adStyle = document.getElementById('ad-page');
 
 /* State */
 const ad = {
@@ -37,6 +38,7 @@ function dispControl() {
     buildSelect.value = ad.buildish;
 }
 function displayAd() {
+    adStyle.classList.add(ad.climate);
     dispCity.textContent = ad.city;
     dispBuild.src = 'assets/buildish/' + ad.buildish + '.jpg';
     dispClimate.src = 'assets/climate/' + ad.climate + '.jpg';
