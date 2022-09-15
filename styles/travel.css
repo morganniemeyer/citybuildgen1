@@ -25,11 +25,10 @@ label {
 
 .ad-page {
     background: grey;
-    min-width: 400px;
-    min-height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
+    border: 4px solid rgb(37, 37, 37);
 }
 
 .chilly {
